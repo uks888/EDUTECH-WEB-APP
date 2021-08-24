@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	padding: 0;
+	background : url(features-bg1.jpg);
+	background-color: white;
+	background-size: cover;
+	background-position: center ;
+	background-origin: content-box;
+	font-family: sans-serif;
+	background-attachment: fixed;
+}
+
+
+
+.header{
+	background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-top: 15 0px;}
+.header h1{color: #fff;font-size:70px;}
+
+.header a{color: #fff;background: #19d376;text-decoration: none;}
+.logo{margin: 0;padding:15 0px;list-style-type:none;}
+.logo i{font-size: 60px;padding-top:10px;}
+.heading{margin: 0;padding:15 0px;text-align: center;text-decoration-style: none;}
+.heading i{font-size: 60px;padding-top:10px;}
+.navbar-nav li{padding: 0 10px}
+.sign_up{padding: 25px;align-content: right;background-color: rgb(178,34,34,0.8);border-radius: 4px;text-shadow: 2px;}
+.sign_up:hover{border-color: black;border: 2px;background-color: rgba(255, 255, 255, 0.3);}
+.blurr{background-color: rgba(255,255,255,0.6);border-radius: 5px;padding:0px;}
+
+
+
+
+ 
+.loginbox{
+	width: 550px;
+	height: 500px;
+	background-color: rgba(0,0,0,0.7);
+	margin: 100px 500px;
+	box-sizing: content-box;
+	padding: 70px 30px;
+} 
+
+.fevicon{
+	width:100px;
+	height:100px;
+	position: absolute; 
+	top:-30px; 
+	right: 9%; 
+	border-radius: 50%;
+	position: top;
+	
+}
+	
+h1{
+	margin: 0;
+	padding: 0 0 20px
+	text-align : center;
+	font-size: 42px;
+	color: white;
+}
+
+.social{margin: 0;padding: 0}
+.social li{display: inline;padding: 0;list-style: none;color: white;}
+.social i{font-size: 30px}
+
+
+
+
+.loginbox p{
+	margin: 0;
+	padding: 0;
+    color: white;
+}
+
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+
+.loginbox input type[type="text"] , input [type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #ff3;
+	background : transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 40px;
+}
+
+
+.loginbox input[type ="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color:#fff;
+	font-size: 18px;
+	border-radius: 20px;
+
+}
+
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background-color: #ffc107;
+	color: white;
+}
+
+
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: white;
+
+}
+
+ .loginbox a:hover
+ {
+ 	color: #ffc107;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

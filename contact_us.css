@@ -1,0 +1,86 @@
+.header{
+	background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-top: 15 0px;}
+.header h1{color: #fff;font-size:70px;}
+
+.header a{color: #fff;background: #19d376;text-decoration: none;}
+.logo{margin: 0;padding:15 0px;list-style-type:none;}
+.logo i{font-size: 60px;padding-top:10px;}
+.heading{margin: 0;padding:15 0px;text-align: center;text-decoration-style: none;}
+.heading i{font-size: 60px;padding-top:10px;}
+.navbar-nav li{padding: 0 10px}
+.login{padding: 25px;align-content: right;background-color: rgb(178,34,34,0.8);border-radius: 4px;text-shadow: 2px;}
+.login:hover{border-color: black;border: 2px;background-color: rgba(255, 255, 255, 0.3);}
+.blurr{background-color: rgba(255,255,255,0.6);border-radius: 5px;padding:0px;}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.containera{
+  border-radius: 5px;
+  background-color: #d0ece7;
+  padding:  20px;
+
+}
+
+img{
+	right: -80%;
+	position: absolute;
+	width:75%;
+	top:5%;
+}
+
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+.box1{
+  padding-right: 20px;
+}

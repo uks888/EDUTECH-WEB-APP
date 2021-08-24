@@ -1,0 +1,121 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background : url(course-details.jpg);
+	background-color: white;
+	background-size: cover;
+	background-position: center ;
+	font-family: sans-serif;
+	background-attachment: fixed;
+}
+.error {color: #FF0000;}
+
+.header{
+	background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-top: 15 0px;}
+.header h1{color: #fff;font-size:70px;}
+
+.header a{color: #fff;background: #19d376;text-decoration: none;}
+.logo{margin: 0;padding:15 0px;list-style-type:none;}
+.logo i{font-size: 60px;padding-top:10px;}
+.heading{margin: 0;padding:15 0px;text-align: center;text-decoration-style: none;}
+.heading i{font-size: 60px;padding-top:10px;}
+.navbar-nav li{padding: 0 10px}
+.login{padding: 25px;align-content: right;background-color: rgb(178,34,34,0.8);border-radius: 4px;text-shadow: 2px;}
+.login:hover{border-color: black;border: 2px;background-color: rgba(255, 255, 255, 0.3);}
+.blurr{background-color: rgba(255,255,255,0.6);border-radius: 5px;padding:0px;}
+
+
+
+
+#form{
+	width: 420px;
+	height: 520px;
+	background-color: #84e184;
+	top:50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	padding: 70px 30px;
+} 
+
+.fevicon{
+	width:150px;
+	height:150px;
+	position: absolute; 
+	top:-30px; 
+	right: -75%; 
+	border-radius: 50%;
+	position: top;
+	
+}
+	
+
+.signupbox{
+	width: 720px;
+	height: 1380px;
+	background-color: rgba(0,0,0,0.7);
+	margin: 100px 500px;
+	box-sizing: border-box;
+	padding: 70px 30px;
+} 
+	
+.signupbox h1{
+	margin: 0;
+	padding: 0 0 20px
+	text-allign : center;
+	font-size: 42px;
+	color: white;
+}
+
+
+.signupbox label{
+	margin: 0;
+	padding: 0;
+    color: white; 
+}
+
+
+.signupbox input{
+	width: 100%;
+	margin-bottom: 20px;
+    
+}
+
+
+.signupbox input type[type="text"] , input [type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #ff3;
+	background : transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 40px;
+}
+
+
+.signupbox input[type ="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color:#fff;
+	font-size: 18px;
+	border-radius: 20px;
+	top: 2px;
+
+}
+
+
+.signupbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background-color: #ffc107;
+	color: white;
+}
+
